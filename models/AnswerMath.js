@@ -10,6 +10,7 @@ const answerMathSchema = new mongoose.Schema({
     required: true,
     ref: 'Maths',
   },
+  correct: { type: Boolean, default: true },
   createAt: {
     type: 'date',
     default: Date.now,

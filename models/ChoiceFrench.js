@@ -10,6 +10,7 @@ const choiceFrenchSchema = new mongoose.Schema({
     required: true,
     ref: 'French',
   },
+  correct: { type: Boolean, default: false },
   createAt: {
     type: 'date',
     default: Date.now,
