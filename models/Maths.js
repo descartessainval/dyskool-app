@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
 // step 1
 // const answerSchema = new mongoose.Schema({

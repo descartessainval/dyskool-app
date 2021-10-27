@@ -13,7 +13,7 @@ const router = express.Router();
 // middleware
 const { protect } = require('../middleware/auth');
 // validation => method destructuring
-const { validateAnswer } = require('../validators/answerMath');
+const { validateAnswer } = require('../validators/answerValidator');
 
 router
   .route('/')

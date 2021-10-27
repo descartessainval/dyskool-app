@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
 
 //step1
 // const answerSchema = new mongoose.Schema({
@@ -22,8 +23,8 @@ const frenchSchema = new mongoose.Schema({
   rule: { type: String, required: true },
   // validAnswers: [answerSchema],
   // propositions: [propositionSchema],
-  answers: [{ type: Schema.Types.ObjectId, ref: 'AnswerFrench' }],
-  choices: [{ type: Schema.Types.ObjectId, ref: 'ChoiceFrench' }],
+  answers: [{ type: Schema.Types.ObjectId, ref: 'AnswerMath' }],
+  choices: [{ type: Schema.Types.ObjectId, ref: 'ChoiceMath' }],
   createAt: {
     type: Date,
     default: Date.now,

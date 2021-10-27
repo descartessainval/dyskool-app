@@ -3,7 +3,7 @@ const asyncHandler = require('../middleware/async');
 const jwt = require('jsonwebtoken');
 const jwtSecret = process.env.JWT_SECRET_KEY;
 const AnswerMath = require('../models/AnswerMath');
-const Maths = require('../models/Math');
+const Maths = require('../models/Maths');
 
 //create answer
 
