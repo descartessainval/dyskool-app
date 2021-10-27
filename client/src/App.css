@@ -1,0 +1,1167 @@
+:root {
+    --btn-bgColor: #2f2e41;
+    --btn-writeColor: whitesmoke;
+    --dyskool-title: 'Comic-Boom-Bubble';
+    --exos-français: #802200;
+    --exos-maths: #007faa;
+    --games: #1978d4;
+    --userAccount: #d29130;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    background-color: var(--btn-writeColor );
+    color: rgb(206, 185, 185);
+}
+
+/*---------------------------------------------------NAVBAR---------------------------------------------------  */
+.navbar {
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 6.8rem;
+    background-color: var(--btn-bgColor);
+    z-index: 10;
+    border-bottom: 1px solid var(--btn-writeColor);
+}
+
+.container-logo_title {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 15rem !important;
+    display: flex;
+    /* border: olivedrab 2px solid; */
+    align-self: center;
+}
+
+#navBar-icon {
+    width: 3rem;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem !important;
+}
+
+.main a:hover {
+    color: var(--btn-writeColor);
+}
+
+.main .link__manifesto {
+    display: none
+}
+
+.menu-btn {
+    padding: 1.5rem 0.5rem;
+    margin: 0rem 0.5rem;
+    border-radius: 5px;
+}
+
+.main {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+ul li:link {
+    text-decoration: none;
+}
+
+.main li {
+    font-size: 0.9rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.main li:hover {
+    border: var(--btn-writeColor) 1.5px solid;
+    border-radius: 10% / 50%;
+    /* background-color: rgb(121, 8, 22); */
+    /* peut déranger la vue */
+}
+
+.nav-link {
+    padding: 2rem !important;
+    border-bottom: var(--btn-writeColor) 1px solid;
+    text-decoration: none;
+    list-style: 0;
+}
+
+#dyskool-title {
+    display: block;
+    margin: auto auto;
+    color: yellow;
+    font-size: 1.5rem;
+    color: var(--btn-writeColor);
+    font-family: 'Comic-Boom-Bubble', serif;
+}
+
+/* FOOTER */
+.Footer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2F2E41;
+    padding: 1.5em 0;
+    border-top: 1px solid var(--btn-writeColor);
+}
+
+a {
+    text-decoration: none;
+    padding: 0.6rem;
+    color: var(--btn-writeColor);
+}
+
+
+/*--------------------------------------------HOME-----------------------------------------------------*/
+
+.Home {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 120vh;
+    /* background-color: rgb(32, 146, 167); */
+}
+
+.img-dessin {
+    width: 80%;
+    display: block;
+    margin: 0rem auto 2rem auto;
+}
+
+button:focus {
+    text-decoration: none;
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+button {
+    margin: auto auto;
+    display: block;
+    justify-self: center;
+    border-radius: 10rem;
+    padding: 0.5rem 2rem;
+    color: whitesmoke;
+    font-weight: bold;
+    background-color: #2f2e41;
+    border: 0;
+}
+
+.slogan {
+    display: block;
+    text-align: center;
+    padding: 7.5rem 0 0.4rem 0;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.btn-register {
+    margin: auto auto;
+    display: block;
+    justify-self: center;
+    border-radius: 10rem;
+    background-color: var(--btn-bgColor);
+    text-decoration: none;
+    font-weight: bold;
+    border: 0;
+    outline: 0;
+}
+
+.fa-chevron-down {
+    display: block;
+    text-align: center;
+    font-size: 2.5rem !important;
+    padding: 0.3rem 2rem;
+}
+
+.chevron-white {
+    display: block;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 1rem 2rem;
+    color: whitesmoke;
+}
+
+.dys_definition {
+    padding: 2rem;
+    color: whitesmoke;
+    background-color: #2f2e41;
+    text-align: center;
+}
+
+.title_script {
+    margin-bottom: 1rem;
+    padding: 0;
+    text-align: left;
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.dyskool-subtitle {
+    font-family: var(--dyskool-title);
+    padding-top: 3.5rem;
+    font-size: 1.5rem;
+}
+
+.dyskool-manifest_first {
+    width: 8rem;
+    display: block;
+    margin-left: 6rem;
+    margin-bottom: 4rem;
+}
+
+.dyskool-manifest_second {
+    margin-bottom: 0.5rem;
+    margin-top: 0rem;
+    width: 6rem;
+}
+
+.container-explain {
+    position: absolute;
+    left: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.def-control {
+    font-size: 0.8rem;
+    left: 5px;
+    color: whitesmoke;
+    width: 5.5rem;
+}
+
+/*-------------------------------------------CATEGORIE---------------------------------------------------*/
+.container-admin{
+    margin-bottom: 1rem;
+}
+
+.container-admin a {
+    color: black;
+}   
+
+.container-admin a:hover {
+    color: rgb(168, 87, 87);
+}
+
+/* --------------------------------------FORM & FORM SWITCH--------------------------------------- */
+.formCenter {
+    padding-top: 9rem;
+    margin-bottom: 3rem;
+    /* border: red solid 3px; */
+    min-height: 30vh;
+    /* text-decoration: none; */
+}
+
+.Form {
+    /* display: flex;
+  color: black;
+  text-decoration: none;
+  border: blueviolet soldi 3px; */
+}
+
+.form__form {
+    width: 100%;
+    padding: 2px 40px;
+    /* border: burlywood solid 3px; */
+}
+
+fieldset{
+    border: none;
+}
+
+.formTitle {
+    color: #707c8b;
+    font-weight: 300;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.formTitle:hover {
+    color: #707c8b;
+    text-decoration: #707c8b;
+}
+
+.formTitle__link {
+    color: #707c8b;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 0 10px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+
+.formTitle__link:first-child {
+    margin-left: 0;
+    border-bottom: 1px solid #4c5d72;
+    font-size: 1rem;
+
+}
+
+.formTitle__link--active {
+    color: black !important;
+    border-bottom: 1px solid #4c5d72;
+    font-size: 1rem;
+
+}
+
+.formField {
+    margin: auto 2rem;
+    min-height: 10vh;
+}
+
+label {
+    margin-bottom: 0;
+}
+
+.formField__label {
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    color: black;
+
+}
+
+.formField__input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: black;
+    outline: none;
+    border-bottom: 1px solid #445366;
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.formField__button {
+    background-color: #2f2e41;
+    color: white;
+    border: none;
+    /* outline: blueviolet; */
+    border-radius: 25px;
+    padding: 15px 55px;
+    font-size: 0.8em;
+    font-weight: 500;
+    margin: 1rem 0rem;
+    outline: 0;
+}
+
+.formField__link {
+    color: #66707d;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 1.5px solid #4c5d72;
+    padding-bottom: 5px;
+}
+
+/*----------------------------------------------------------categorie explain----------------------------------------------------------- */
+
+.dyskool-illustration_explicatif {
+    /* background-image: url(`images/illustration-explicatif.png`); */
+    width: 18rem
+}
+.ExplainCategorie {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 73vh;
+    text-align: center;
+    /* border: red 3px solid; */
+}
+
+.categorie-explain {
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    position: relative;
+    color: black;
+
+}
+
+.espFrancais,
+.espMath,
+.espDetente,
+.espCompte {
+    font-size: 1rem;
+}
+
+.francais,
+.math,
+.detente,
+.monCompte {
+    min-height: 130px;
+    width: 130px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: red 3px solid; */
+}
+
+
+.presentation-francais,
+.presentation-detente {
+    color: black;
+    font-size: 0.9rem;
+    display: block;
+    position: absolute;
+    transform: translate(123%, 5%);
+    width: 124px;
+}
+
+.presentation-math,
+.presentation-monCompte {
+    color: black;
+    font-size: 0.9rem;
+    display: block;
+    position: absolute;
+    transform: translate(-130%, 5%);
+    width: 124px;
+}
+
+.francais,
+.detente {
+    position: relative;
+    transform: translate(-60%);
+}
+
+.math,
+.monCompte {
+    position: relative;
+    transform: translate(60%);
+}
+
+.francais {
+    background-color: var(--exos-français);
+    position: relative;
+    transform: translate(-60%);
+}
+
+.math {
+    background-color: var(--exos-maths);
+}
+
+.detente {
+    background-color: var(--games);
+}
+
+.monCompte {
+    background-color: var(--userAccount);
+}
+
+/*--------------------------------------------------------DEFINITION RENDER CLIENT----------------------------------------------------------*/
+.Definition {
+    width: 100%;
+    padding-top: 7rem;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    min-height: 74vh;
+
+}
+
+.Definition h1 {
+    color: black;
+    margin: 1rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.definition-container {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.view-data {
+    width: 250px;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+ul li {
+    font-size: 0.8rem;
+    text-align: justify;
+}
+
+
+
+li h2 {
+    color: black;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+li p {
+    margin: 0;
+    padding: 0;
+}
+
+/* -----------------------------------------------------------------DASHBOARD----------------------------------------------------------*/
+
+.Dashboard-container {
+  padding-top: 10rem;
+  min-height: 70vh;
+  width: '100%';
+}
+
+.Dashboard-container h1 {
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+#list-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.link-control {
+  display: flex;
+  margin-top: 1rem;
+  background-color: var(--btn-bgColor);
+}
+
+
+.link-control a {
+  color: var(--btn-writeColor);
+  width: 16rem;
+  font-weight: bold;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+@media screen and (min-width : 529px) {
+
+    .Dashboard-container h1 {
+        color: black;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #list-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .link-control {
+        display: flex;
+        margin-top: 1rem;
+        background-color: none;
+        width: 16rem;
+    }
+
+
+    .link-control a {
+        color: none;
+        font-weight: bold;
+        padding: 2rem;
+        text-align: center;
+    }
+}
+
+/* ----------------------------------------------------------------RESPONSIVE---------------------------------------------------------- */
+/* iPads (portrait and landscape) ----------- */
+@media screen and (min-width : 700px) {
+
+    /*------------------------------------FORM  et form switch---------------------------*/
+
+    .formCenter {
+        margin-right: auto;
+        margin-left: auto;
+        width: 31rem;
+        min-height: 56rem;
+        padding-top: 15rem;
+
+    }
+
+    .Form {
+        display: flex;
+        color: black;
+        text-decoration: none;
+        padding-top: rem;
+    }
+
+    .form__form {
+        width: 100%;
+        padding: 2px 40px;
+    }
+
+    .pageSwitcher {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 10%;
+    }
+
+    .pageSwitcher__item {
+        border: 2px red solid;
+        color: black;
+        cursor: pointer;
+        font-size: 0.9em;
+        border: none;
+        outline: none;
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+    }
+
+    .pageSwitcher__item--active {
+        background-color: #4c5d72;
+        color: white;
+    }
+
+    .pageSwitcher__item:first-child {
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    .pageSwitcher__item:last-child {
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    .formTitle {
+        color: #707c8b;
+        font-weight: 300;
+        margin-bottom: 50px;
+        display: flex;
+    }
+
+    .formTitle__link {
+        color: #707c8b;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1.5em;
+        margin: 0 10px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+
+    .formTitle__link:first-child {
+        margin-left: 0;
+        border-bottom: 1px solid #4c5d72;
+        font-size: 1.5rem;
+    }
+
+    .formTitle__link--active {
+        /* color: white; */
+        color: black;
+        border-bottom: 1px solid #4c5d72;
+    }
+
+    .formField {
+        margin: auto 1rem;
+        min-height: 8vh;
+    }
+
+    .formField__label {
+        display: block;
+        text-transform: uppercase;
+        font-size: 0.9em;
+        color: black;
+    }
+
+    .formField__input {
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        color: black;
+        outline: none;
+        border-bottom: 1px solid #445366;
+        font-size: 1em;
+        font-weight: 300;
+        padding-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .formField__input::placeholder {
+        color: #616e7f;
+    }
+
+    .formField__button {
+        background-color: #2f2e41;
+        color: white;
+        border: none;
+        /* outline: blueviolet ; */
+        border-radius: 25px;
+        padding: 15px 55px;
+        font-size: 0.8em;
+        font-weight: 500;
+        margin: 1rem 0rem;
+        outline: 0;
+    }
+
+    .formField__link {
+        color: #66707d;
+        text-decoration: none;
+        display: inline-block;
+        border-bottom: 1.5px solid #4c5d72;
+        padding-bottom: 5px;
+    }
+
+    .formField__checkboxLabel {
+        color: #646f7d;
+        font-size: 0.9em;
+    }
+
+    .formField__checkbox {
+        position: relative;
+        top: 1.5px;
+    }
+
+    .formField__termsLink {
+        color: black;
+        border-bottom: 1px solid #4c5d72;
+        text-decoration: none;
+        display: inline-block;
+        padding-bottom: 2px;
+        margin-left: 5px;
+    }
+
+    #fielError,
+    #nameError,
+    #pseudoError,
+    #emailError,
+    #passwordError,
+    #cPasswordError {
+        display: none;
+    }
+
+
+    /*----------------------------------------------------------FOOTER-----------------------------------------------------------------*/
+    .Footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        /* padding: 1.5em 0;
+      width: 100%; */
+    }
+
+    /* ----------------------------------------------------------NavBar----------------------------------------------------------------*/
+
+
+
+    .navbar {
+        /* border: red 3px solid; */
+        height: 8rem;
+    }
+
+    .container-logo_title {
+        /* border: blue 3px solid; */
+        margin: 0;
+    }
+
+    #navBar-icon {
+        width: 5rem;
+    }
+
+    .main {
+        /* border: yellow 3px solid; */
+        width: 60%;
+        margin-top: 0;
+        padding: 1rem;
+    }
+
+    .main .link__manifesto {
+        display: block
+    }
+
+    .main a {
+        font-size: 1.2rem;
+    }
+
+
+    /* ------------------------------------------------------home => landing-Page--------------------------------------------------------*/
+
+    .slogan {
+        padding: 10.5rem 0 0.4rem 0;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    .image-dessin {
+        width: 70%;
+        margin: 3rem auto 4rem auto;
+    }
+
+    /* inscris toi */
+    .btn-register {
+        width: 20rem;
+        padding: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .title_script {
+        font-size: 2.2rem;
+    }
+
+    /* ------------------------------------------------------partie definition----------------------------------------------------------*/
+
+    .dys_definition {
+        padding: 5.5rem 5rem 3rem 5rem;
+    }
+
+    .def_dys {
+        /* border: red 2px solid; */
+        font-size: 1.4rem;
+    }
+
+
+    .dyskool-illustration_explicatif {
+        width: 34rem;
+    }
+
+    .chevron-def {
+        margin-top: 4rem;
+    }
+
+    /* -----------------------------------------------------categorie explain------------------------------------------------------------*/
+
+    .ExplainCategorie {
+        min-height: 64vh;
+    }
+
+    .categorie-explain {
+        font-weight: 500;
+        font-size: 1.5rem;
+    }
+
+    .francais,
+    .detente {
+        position: relative;
+        transform: translate(-164%);
+        border-radius: 50%;
+    }
+
+
+    .math,
+    .monCompte {
+        position: relative;
+        transform: translate(140%);
+        border-radius: 50%;
+    }
+
+    .presentation-francais,
+    .presentation-detente,
+    .presentation-math,
+    .presentation-monCompte {
+        font-size: 1.2rem;
+        width: 160px;
+    }
+
+    /*------------------------------------------------CATEGORIE---------------------------------------------*/
+    .Categorie {
+        min-height: 82vh;
+    }
+
+    .user-name {
+        font-size: 2rem;
+        padding-top: 8rem;
+    }
+
+    .container-categorie {
+        margin-left: auto;
+        margin-right: auto;
+        width: 42rem;
+    }
+
+    .container-categorie ul {
+        display: flex;
+        flex-wrap: wrap;
+        width: 42rem;
+        justify-content: space-around;
+        padding-top: 4rem;
+        padding-bottom: 11rem;
+    }
+
+    .form-categorie {
+        width: 20rem;
+    }
+
+    .unlist-categorie li {
+        width: 20rem;
+    }
+
+
+    /* -------------------------------------------------------Espace type-----------------------------------------------------------------*/
+    .Espace {
+        min-height: 91vh;
+    }
+
+
+    .title-espace {
+        color: black;
+        font-size: 1.7rem;
+        text-align: center;
+        padding-top: 6rem;
+    }
+
+    /* --------------------------------------------------------DASHBOARD-----------------------------------------------------------------*/
+
+    .Dashboard-container {
+        /* padding-top: 14rem;*/
+        min-height: 91vh;
+        margin-left: auto;
+        margin-right: auto;
+        width: 41rem;
+    }
+
+        
+ 
+    .Dashboard-container h1 {
+        font-size: 1.5rem;
+    }
+
+    #list-menu {
+        /* border: 3px solid red; */
+        padding: 3rem;
+    
+    }
+   .link-control {
+       /* display: flex; */
+       margin-top: 1rem;
+       width:30rem;
+       background-color: none;
+    
+   }
+   
+    .link-control a {
+        font-size: 1.5rem;
+        width: 30rem;
+    }
+    
+    
+    /* definition board type for all */
+    .grid-2 {
+        display: flex;
+        flex-direction: column;
+        min-height: 55vh;
+    }
+
+    /* Form dashboard */
+    .form-dashboard {
+        margin-left: auto;
+        margin-right: auto;
+        width: 26rem;
+        padding: 0 1rem;
+    }
+
+    .container-link {
+        text-Align: center;
+        padding-top: 3rem;
+    }
+
+    /*-------------------- DEFINITION RENDER CLIENT */
+
+    .Definition {
+        width: 100%;
+        padding-top: 10rem;
+        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        color: black;
+        min-height: 91vh;
+    }
+
+    .Definition h1 {
+        color: black;
+        margin: 2rem;
+        font-size: 3rem;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .definition-container {
+        margin-left: auto;
+        padding-right: 2rem;
+        justify-content: flex-end;
+        width: 40rem;
+    }
+
+}
+
+/* Desktops and laptops ----------- */
+@media screen and (min-width : 1224px) {
+    .Footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1.5em 0;
+    }
+
+
+    /*------------------------------------FORM  et form switch---------------------------*/
+
+
+    /* Styles pour cette Media Queries */
+    /* ---------------------------------------------------------NAVbar---------------------------------------------------------------- */
+    .navbar {
+        /* border: red solid 3px; */
+        height: 6rem;
+    }
+
+    .main {
+        /* border: yellow 3px solid; */
+        width: 60%;
+        margin-top: 0rem;
+        padding: 0rem;
+    }
+
+    /* -------------------------------------------------------------HOME--------------------------------------------------------------- */
+
+    .slogan {
+        padding: 6.5rem 0 0.4rem 0;
+        font-size: 1.2rem;
+        font-weight: 600;
+
+    }
+
+    .img-dessin {
+        width: 24%;
+        display: block;
+        margin: 0rem auto 2rem auto;
+    }
+
+    .btn-register {
+        width: 13rem;
+        padding: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    /*----- definition dys */
+
+    .dys_definition {
+        padding: 2rem 9rem 3rem 9rem;
+    }
+
+    .def_dys {
+
+        font-size: 1.3rem;
+    }
+
+    /*---------------------------------------- page categorie */
+    .user-name {
+        font-size: 1.5rem;
+        padding-top: 0rem;
+    }
+
+    .container-categorie {
+        /* padding: 2rem; */
+    }
+
+    /* definition Board */
+    .grid-2 {
+        padding-top: 8rem;
+        min-height: 50rem;
+        display: flex;
+    }
+
+    /*-------------------------------------- Page Definition -------------------------------- */
+    .Definition {
+        width: 100%;
+        padding-top: 4.5rem;
+        padding-bottom: 4rem;
+        display: flex;
+        flex-direction: column;
+        color: black;
+
+    }
+
+    .Definition h1 {
+        color: black;
+        padding-left: 5rem;
+        margin: 2rem;
+        font-size: 3rem;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .definition-container {
+        margin-left: auto;
+        padding-right: 4rem;
+        justify-content: flex-end;
+        width: 60rem;
+    }
+
+    /* -------------------------------------espace-exercice--------------------------- */
+
+    .bloc-exercice {
+        padding-top: 0rem;
+        border: 1px dotted grey;
+        width: 20rem;
+        margin: 0rem;
+    }
+
+
+    /* ------------------------------------------Espace type*/
+    .Espace {
+        min-height: 91vh;
+    }
+
+    .Espace .title-espace {
+        padding-top: 0rem;
+        color: black;
+        text-align: center;
+    }
+
+    .svg-bonhomme {
+        display: none;
+    }
+
+    .return-main {
+        /* /retour menu */
+        position: absolute;
+    }
+
+    .title-container {
+        font-size: 1rem;
+    }
+
+    .bloc-exercice {
+        padding-top: 0;
+    }
+
+
+    .espace-disposition {
+        display: flex;
+        justify-content: center;
+    }
+
+}

@@ -1,0 +1,119 @@
+.Home {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-height: 120vh;
+  /* background-color: rgb(32, 146, 167); */
+}
+
+.img-dessin {
+  width: 80%;
+  display: block;
+  margin: 0rem auto 2rem auto;
+}
+
+button:focus {
+  text-decoration: none;
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+button {
+  margin: auto auto;
+  display: block;
+  justify-self: center;
+  border-radius: 10rem;
+  padding: 0.5rem 2rem;
+  color: whitesmoke;
+  font-weight: bold;
+  background-color: #2f2e41;
+  border: 0;
+}
+
+.slogan {
+  display: block;
+  text-align: center;
+  padding: 7.5rem 0 0.4rem 0;
+  color: black;
+  font-size: 1.1rem;
+}
+
+.btn-register {
+  margin: auto auto;
+  display: block;
+  justify-self: center;
+  border-radius: 10rem;
+  background-color: var(--btn-bgColor);
+  text-decoration: none;
+  font-weight: bold;
+  border: 0;
+  outline: 0;
+}
+
+.fa-chevron-down {
+  display: block;
+  text-align: center;
+  font-size: 2.5rem !important;
+  padding: 0.3rem 2rem;
+}
+
+.chevron-white {
+  display: block;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  color: whitesmoke;
+}
+
+.dys_definition {
+  padding: 2rem;
+  color: whitesmoke;
+  background-color: #2f2e41;
+  text-align: center;
+}
+
+.title_script {
+  margin-bottom: 1rem;
+  padding: 0;
+  text-align: left;
+  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.dyskool-subtitle {
+  font-family: var(--dyskool-title);
+  padding-top: 3.5rem;
+  font-size: 1.5rem;
+}
+
+.dyskool-manifest_first {
+  width: 8rem;
+  display: block;
+  margin-left: 6rem;
+  margin-bottom: 4rem;
+}
+
+.dyskool-manifest_second {
+  margin-bottom: 0.5rem;
+  margin-top: 0rem;
+  width: 6rem;
+}
+
+.container-explain {
+  position: absolute;
+  left: 0rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 320px;
+}
+
+.def-control {
+  font-size: 0.8rem;
+  left: 5px;
+  color: whitesmoke;
+  width: 5.5rem;
+}
